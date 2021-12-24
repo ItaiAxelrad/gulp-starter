@@ -7,30 +7,24 @@
     "build": "gulp build",
     "update": "npm i -g npm-check-updates && ncu -u && npm install && npm audit fix"
   },
-  "author": "",
+  "author": "Itai Axelrad",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.14",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-postcss": "^9.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
     "gulp-responsive": "^3.0.1",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-uglify": "^3.0.2",
-    "imagemin-mozjpeg": "^9.0.0"
+    "gulp-uglify-es": "^3.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ItaiAxelrad/gulp-starter.git"
-  },
-  "dependencies": {
-    "autoprefixer": "^10.2.6",
-    "cssnano": "^5.0.5",
-    "gulp-concat": "^2.6.1",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-uglify-es": "^2.0.0",
-    "rellax": "^1.12.1",
-    "sharp": "^0.28.3"
   },
   "browserslist": [
     "> 1%",
